@@ -1,0 +1,153 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.tog{
+    width: 80%;
+    height: 80px;
+    text-align: start;
+    font-size: 13px;
+
+    @media (width <780px) {
+        height: 150px;
+        
+    }
+}
+
+
+.card{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px 10px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    justify-content: center;
+    align-items: center;
+}
+.card:nth-child( n + 2){
+    margin-top: 35px;
+}
+.card:nth-child( n + 3){
+    margin-top: 65px;
+}
+.cardimg{
+    width: 80px;
+    height: 80px;
+}
+.imgs{
+   
+    width: 14px;
+    height: 10px;
+    transform: rotate(180deg);
+    background: red;
+    border-radius: 50%;
+    padding: 5px 2px;
+}
+.img1{
+    
+      
+    width: 14px;
+    height: 10px;
+}
+h5{
+    text-align: center;
+display: flex;
+flex-direction: column;
+width: 40%;
+gap: 20px;
+font-size: 20px;
+@media  (width <780px) {
+    width: 90%;
+    
+}
+}
+.free{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+    font-size: 20px;
+}
+.cards{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (width <780px) {
+        flex-direction: column;
+        
+    }
+}
+.addtext{
+    font-size: 17px;
+    margin: 0;
+    font-weight: 600;
+    margin-top: 19px;
+}
+.ptext{
+    margin: 0;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.cardbtn{
+    background: rgba(0, 81, 255, 0.849);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+  
+}
+.cardbtn:hover{
+    cursor: pointer;
+    background: white;
+    color: rgb(8, 54, 206);
+    border: 2px solid rgb(0, 60, 255);
+}
+.dash{
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.521);
+    border-top-style: dotted;
+    margin-bottom: 10px;
+}
+.freq{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+}
+.fpara{
+    font-size: 12px;
+    color: rgb(107, 105, 105);
+    width: 90%;
+    text-align: center;
+}
+.fqt{
+ width: 60%;
+
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ flex-direction: column;
+ @media (width <780px) {
+    width: 90%;
+    
+ }
+}
+
+.question{
+    width: 90%;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     font-weight: 600;
+}
